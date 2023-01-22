@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Open+Sans:wght@300&display=swap");
+
+* {
+  font-family: "Cardo", serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Cardo", serif;
+  color: #111;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.logo{
+  margin: 20px;
+  width: 200px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav {
+  width: 60%;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  font-size: 26px;
+  padding: 60px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+header a:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.body1 {
+  background-image: url(../images/bgimg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.p-red{  
+  padding-bottom: 35px;
+  font-size: 50px;
+  line-height: 5px;
+  color: red;
+  font-family: "Cookie", cursive;
+}
+.p-menu{
+  font-size: 18px;
+}
+
+.tittle{
+  width: 850px;
+  height: 180px;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+   margin: 20rem 0rem 0rem 12rem;
+}
+.Services{
+  margin-top: 1rem;
+}
+.btn{  
+  text-decoration: none;
+  width: 10rem;
+  margin: 112px 0px 0px 197px;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border-radius: 0px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(255, 19, 19);
+  transition: all 0.3s ease-in-out
+}
+.btn:hover{
+ text-decoration: none;
+ background-color: white;
+ color: red;
+}
+.main1{
+  margin-bottom: 15rem;
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+.service{
+    margin: 17rem;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    
+}
+p{
+  color: #787e89;
+}
+.item{
+  background-color: white;
+ 
+}
+.description{
+  margin: 50px;
+  margin-bottom: 140px;
+}
+.desc{
+  background-color: rgb(255, 255, 255);
+}
+
+.content{
+   width: 100%;
+   margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+.p-red-1{
+  padding-bottom: 30px ;
+  color: red;
+  font-family: "Cookie", cursive;
+  font-size: 46px;
+   line-height: 46px;
+  text-align: center;
+}
+.h2{
+   margin-bottom: 100px;
+}
+h2{
+  text-align: center;
+  width: 700px;
+  line-height: 42px;
+  font-size: 47px;
+  margin:  auto;
+}
+ 
+h3{
+  padding: 10px 0 0 0;
+}
+  
+.imgg{
+width: 350px; 
+}
+.para-1{
+  width: 350px;
+  padding: 10px 5px 0px 0px;
+  font-size: 18px;
+}
+/* //fotoja */
+.title-h1{
+  font-size: 42px;
+  line-height: 52px;
+  margin: 0px 460px ;
+} 
+
+
+ .image{
+  width: 100%;
+ }
+
+ .experience{
+  height: 470px;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url(../images/backg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 100px 0px;
+ }
+
+ .exp{
+  padding: 100px 0px 0px 0px;
+  color: white;
+  text-align: center;
+ }
+ .p-exp{
+  font-family: "Cookie", cursive;
+  font-size: 33px;
+ }
+ .p2{
+  width: 800px;
+  font-size: 45px;
+  padding: 40px;
+ padding-bottom: 60px;
+ }
+ .btn-exp{
+  text-decoration: none;
+  width: 10rem;
+  padding: 1rem 2rem; 
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(255, 19, 19);
+  transition: all 0.3s ease-in-out;
+ }
+ .btn-exp:hover{
+  text-decoration: none;
+  background-color: white;
+  color: red;
+ }
+ 
+ 
+ .p-red-2{
+  padding-bottom: 30px ;
+  color: red;
+  font-family: "Cookie", cursive;
+  font-size: 46px;
+  line-height: 46px;
+  text-align: center;
+ }
+ .tittle-h1{
+  padding-bottom: 50px ;
+  font-size: 47px;
+  line-height: 60px;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+
+ .itemsMenu{
+  display: flex;
+  width: 48%;
+  height: 140px;
+  padding: 20px;
+  border: 2px dotted gray;
+
+ }
+
+ .container-1{
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+ }
+.right{
+  margin: 0 0 0 50px;
+ }
+
+ .left, .right{
+    margin-bottom: 50px;
+ }
+ .descMenu{
+  margin-left: 60px;
+ }
+ .h3-menu{
+    font-size: 20px;
+ }
+ .p-menu{
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+ .btn-menu{
+  text-decoration: none;
+  margin-top: 0px ;
+  /* width: 11rem; */
+  padding: 1rem 1rem; 
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+ }
+ .btn-menu:hover{
+  background-color: rgb(231, 35, 35);
+  color: rgb(0, 0, 0);
+ }
+ .span-red{
+  color: red;
+ }
+ .img-instagram{
+  width: 30%;
+  height: 250px;
+ }
+
+ .h1-insta{
+  font-size: 58px;
+  width: 30%;
+  padding: 100px 0px 30px 0px;
+  margin: 20px 800px ;
+ }
+ 
+ .img-instagram{
+  background-size: cover;
+  background-image: url(../images/instagram-photo.png);
+  width: 100%;
+  height: 400px;
+ }
+ .a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1800px;
+  height: 400px;
+ }
+  .A-insta{
+  margin: 500px 0px 500px 800px ;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 15px 45px;
+  font-size: 30px;
+  line-height: 14px;
+  font-weight: 700;
+  }
+  .A-insta:hover{
+    background-color: white;
+    color: black;
+  }
+footer{
+  display: flex;
+  align-items: center;
+  background-color: #111;
+  width: 100%;
+  height: 400px;
+}
+ .end{
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1900px;
+  height: 400px;
+}
+ .form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 60px;
+  width: 1400px;
+  height: 300px;
+ }
+
+ .h4-end{
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+ }
+ .h4-clock{
+  color: white;
+  font-size: 20px;
+ }
+ .h4-clock-1{
+  font-size: 18px;
+  color:  #787e89;
+ }
+ 
+ .about{
+  width: 400px;
+  padding-right: 20px;
+ }
+.contact-info{
+    width: 400px;
+    padding-left: 120px;
+  }
+ 
+.opening-hours{
+ padding-left: 100px;
+}
+
+
+@media screen and (max-width: 769px) {
+
+
+   header .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .logo{
+    margin-top: 20px;
+   }
+nav ul{
+  /* background-color: rgba(255, 20, 20, 0.162); */
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+nav ul li{
+  border-bottom: 2px solid rgb(183, 183, 231);
+  margin-top: 15px;
+}
+nav ul li:hover{
+  border-bottom: 2px solid red;
+}
+
+body{
+  max-width: 100%;
+}
+.main1{
+  display: flex;
+  align-items: flex-start ;
+  padding-left: 50px;
+  padding-top: 260px;
+}
+.tittle{
+  margin: 0px;
+  font-size: 22px;
+  width: 50%;
+}
+.p-red{
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.btn{
+  margin: 0px;
+}
+
+.tittle-h1{
+  width: auto;
+  font-size: 50px;
+}
+.service{
+  width: 100%;
+  margin: 0px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card{
+  margin-bottom: 30px ;
+}
+.container-1{
+  display: flex;
+  justify-content: center;
+  margin:  auto;
+  width: 90%;
+  
+}
+.itemsMenu{
+  width: 70%;
+ 
+}
+.left, .right, .descMenu{
+  margin: 0px;
+}
+/* .a{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin-bottom:20px ;
+} */
+
+.h1-insta{
+  display: none;
+}
+.form{
+  margin-top: 90px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about{
+ width: 500px;
+}
+.contact-info{
+  width: 740px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-right: 130px;
+ text-align: left;
+}
+.opening-hours{
+  width: 700px;
+  padding-top: 20px;
+text-align: left;
+padding-right: 160px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+}
+}
+
+.aMenu{
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 575px){
+ 
+  .logo{
+    margin: 0px;
+  }
+ nav ul{
+  margin: 0px;
+ }
+
+.main1{
+  display: flex;
+  align-items: flex-start ;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+.tittle{
+  margin: 0px;
+  font-size: 22px;
+  width: 70%;
+}
+.btn{
+  margin-top: 80px;
+}
+
+.h2{
+  display: flex;
+  align-items: center;
+  width: 350px;
+  font-size: 30px;
+}
+.p2{
+  display: flex;
+  align-items: center;
+  width: 400px;
+  font-size: 27px;
+}
+  .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item{
+    text-align: center;
+  }
+  .itemsMenu{
+    display: block;
+    border: none;
+    margin-bottom: 80px;
+  }
+  .aMenu{
+    margin: 30px 0 50px 0;
+  }
+
+  .A-insta{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+   
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+  }
+  .about{
+    width: 300px;
+   }
+   .contact-info{
+     width: 530px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     padding-right: 130px;
+    text-align: left;
+   }
+   .opening-hours{
+     width: 500px;
+     padding-top: 10px;
+   text-align: left;
+   padding-right: 160px;
+   }
+}
