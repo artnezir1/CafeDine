@@ -20,15 +20,16 @@ h3 {
 }
 
 .logo{
-  margin: 20px;
+  margin: 10px;
   width: 200px;
 }
 
 header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
+   justify-content: space-between;}
+  
+
 header nav {
   width: 60%;
 }
@@ -59,7 +60,7 @@ header a:hover {
   width: 100%;
 }
 .p-red{  
-  padding-bottom: 35px;
+  padding-bottom: 15px;
   font-size: 50px;
   line-height: 5px;
   color: red;
@@ -71,7 +72,7 @@ header a:hover {
 
 .tittle{
   width: 850px;
-  height: 180px;
+  height: 150px;
   font-weight: 700;
   font-size: 40px;
   color: white;
@@ -98,6 +99,9 @@ header a:hover {
  text-decoration: none;
  background-color: white;
  color: red;
+}
+.services-g{
+  margin-top: -70px;
 }
 .main1{
   margin-bottom: 15rem;
@@ -296,13 +300,15 @@ width: 350px;
  .img-instagram{
   width: 30%;
   height: 250px;
+  
  }
 
  .h1-insta{
   font-size: 58px;
-  width: 30%;
+  width: 15%;
   padding: 100px 0px 30px 0px;
-  margin: 20px 800px ;
+  margin: auto;
+  /* margin: 20px 800px ; */
  }
  
  .img-instagram{
@@ -318,8 +324,16 @@ width: 350px;
   width: 1800px;
   height: 400px;
  }
+ .haha{
+  width: 16%;
+  margin: auto;
+  margin-bottom: -210px;
+  margin-top: 200px;
+
+    
+ }
   .A-insta{
-  margin: 500px 0px 500px 800px ;
+  /* margin: 500px 0px -130px 800px ; */
   text-decoration: none;
   background-color: red;
   color: white;
@@ -418,6 +432,7 @@ body{
   padding-top: 260px;
 }
 .tittle{
+  padding-bottom: 170px;
   margin: 0px;
   font-size: 22px;
   width: 50%;
@@ -441,6 +456,7 @@ body{
 .content{
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .card{
@@ -465,7 +481,7 @@ body{
   height: 300px;
   display: flex;
   margin-bottom:20px ;
-} */
+/* } */ 
 
 .h1-insta{
   display: none;
@@ -503,6 +519,7 @@ footer{
 }
 
 .aMenu{
+  padding: 30px ;
   text-align: center;
   margin: auto;
 }
